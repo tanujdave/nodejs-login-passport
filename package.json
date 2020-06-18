@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-login-passport",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --respawn src/index.ts",
+    "start": "ts-node dist/server.js",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "@types/bcrypt-nodejs": "^0.0.31",
+    "@types/connect-flash": "^0.0.35",
+    "@types/express": "^4.17.6",
+    "@types/express-session": "^1.17.0",
+    "@types/mongoose": "^5.7.26",
+    "@types/morgan": "^1.9.1",
+    "@types/node": "^14.0.13",
+    "@types/passport": "^1.0.3",
+    "@types/passport-local": "^1.0.33",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "ejs-mate": "^3.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.9.19",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node-dev": "^1.0.0-pre.49"
+  }
+}
